@@ -1,7 +1,3 @@
-/**
- * Below are text styles used in the app, primarily in the ThemedText component.
- */
-
 import { TextStyle } from 'react-native';
 
 export const textStyles = function (
@@ -34,6 +30,14 @@ export const textStyles = function (
       lineHeight: 30 * scale,
       fontSize: 16 * scale,
       color: linkColor,
+    },
+    timer: {
+      fontSize: 8 * scale,
+      lineHeight: 10 * scale,
+    },
+    menuItem: {
+      fontSize: 12 * scale,
+      lineHeight: 24 * scale,
     },
   };
 };
